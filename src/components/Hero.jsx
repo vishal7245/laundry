@@ -10,7 +10,7 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">1st Month</span>
           </p>
         </div>
 
@@ -25,17 +25,15 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
+          Laundry.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
+        Your one-stop-shop for affordable laundry services. Our experienced team is dedicated to providing convenient and reliable laundry solutions to people living away from their homes. With a wide range of services including washing, drying, folding, and ironing, we're committed to making laundry a stress-free experience for our customers.
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        {/* <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
