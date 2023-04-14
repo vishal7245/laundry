@@ -25,14 +25,12 @@ const Business = () =>  (
         You do your work, <br className="sm:block hidden" /> we’ll handle
         the laundry.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda dolorem quas temporibus doloribus, alias saepe, mollitia, fugit laudantium nulla aliquid harum reprehenderit quasi eos velit enim atque veniam quia!
-      </p>
-
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
+      Experience the ultimate in laundry convenience with our laundry company! From pickup to delivery, we take care of everything so you don't have to. Trust us to keep your clothes clean and fresh every time.</p>
       <Button styles={`mt-10`} />
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={` flex-col`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}

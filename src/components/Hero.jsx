@@ -28,8 +28,7 @@ const Hero = () => {
           Laundry.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
-        Your one-stop-shop for affordable laundry services. Our experienced team is dedicated to providing convenient and reliable laundry solutions to people living away from their homes. With a wide range of services including washing, drying, folding, and ironing, we're committed to making laundry a stress-free experience for our customers.
-        </p>
+        Laundry Made Simple. Your Affordable Solution for Convenient, Reliable and Stress-Free Laundry Services Away from Home.        </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

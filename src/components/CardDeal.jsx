@@ -9,9 +9,8 @@ const CardDeal = () => (
         Find a better  deal <br className="sm:block hidden" /> in few easy
         steps.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
+      At our company, we understand the importance of getting the best value for your money. That's why we are dedicated to helping you find a better deal on the products or services you need. Whether you want laundary services for your hotel, PG or just for your house, we've got you covered.
       </p>
 
       <Button styles={`mt-10`} />
