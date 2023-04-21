@@ -2,7 +2,7 @@ import styles from "../style";
 import { arrowUp } from "../assets";
 
 const GetStarted = () => (
-  <a href="https://api.whatsapp.com/send/?phone=9205043720&text&type=phone_number&app_absent=0">
+  <a href="https://wa.link/2ll5m6">
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
     <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
       <div className={`${styles.flexStart} flex-row`}>
