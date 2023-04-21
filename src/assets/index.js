@@ -28,8 +28,13 @@ import money from "./money.png";
 import delivery from "./delivery-man.png";
 import cleaning from "./dry-cleaning.png";
 import logo1 from "./logo.png";
+import illu1 from "./illu1.png";
+import illu3 from "./illu3.png";
+
 
 export {
+  illu1,
+  illu3,
   logo1,
   cleaning,
   airbnb,
