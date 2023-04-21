@@ -81,6 +81,11 @@ export const stats = [
     title: "Trusted by Company",
     value: "500+",
   },
+  {
+    id: "stats-3",
+    title: "Monthly Subscriber",
+    value: "50+",
+  },
 ];
 
 export const footerLinks = [
