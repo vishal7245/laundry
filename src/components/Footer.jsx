@@ -16,26 +16,31 @@ const Footer = () => (
         </p>
       </div>
 
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
-          <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="flex-[3.5] flex w-full md:mt-0 mt-10">
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3507.7818538557112!2d76.98347561507863!3d28.4559916824877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI3JzIxLjYiTiA3NsKwNTknMDguNCJF!5e0!3m2!1sen!2sin!4v1682066845099!5m2!1sen!2sin"
+            width="500"
+            height="400"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div className={`${styles.heading2} text-right`}>
+          <h1>Contact</h1>
+          <p className={`${styles.paragraph}`}>Sahil Yadav: +91 99113 96425</p>
+          <p className={`${styles.paragraph}`}>Jayant : +91 70601 21256</p>
+          <a href="mailto:info@nivilaundry.com">
+            <button
+              type="button"
+              className={`my-10 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none`}
+            >
+              Email Us
+            </button>
+          </a>
+        </div>
       </div>
     </div>
 

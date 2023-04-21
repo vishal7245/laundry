@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, money, delivery, cleaning } from "../assets";
 
 export const navLinks = [
   {
@@ -22,21 +22,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: money,
     title: "Affordable",
     content:
       "Affordable laundry services without sacrificing quality.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: delivery,
     title: "Convienient",
     content:
       "Convenient and free pickup and delivery service.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: cleaning,
     title: "Clean",
     content:
       "Clean and hygienic laundry service for your peace of mind.",
@@ -47,27 +47,27 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "I cannot say enough good things about this laundry service. Their hand dry cleaning is the best I have ever seen, and they really take the time to care for each item. The economical pricing is just icing on the cake. I would give them 10 stars if I could.",
+    name: "Priya Sharma",
+    title: "Customer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "I have tried many laundry services over the years, but none compare to this one. The quality of their work is exceptional, The separate and hygienic wash gives me peace of mind that my clothes are being cared for properly, and the free pickup and delivery is a huge convenience.",
+    name: "Vishal Rawat",
+    title: "Customer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "I've been using this laundry service for a while now, and I couldn't be happier. The team is always friendly and professional, and the quality of their work is consistently excellent. I appreciate the separate and hygienic wash, and the free pickup and delivery makes my life so much easier.",
+    name: "Sakshi Gupta",
+    title: "Customer",
     img: people03,
-  },
+  }
 ];
 
 export const stats = [
