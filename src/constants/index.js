@@ -67,7 +67,28 @@ export const feedback = [
     name: "Sakshi Gupta",
     title: "Customer",
     img: people03,
-  }
+  },
+  {
+    id: "feedback-4",
+    content: "I was hesitant to try a new laundry service, but I am so glad I did. The hand dry cleaning is incredible, and my delicate items have never looked better.",
+    name: "Vikas Tomar",
+    title: "Customer",
+    img: people03,
+  },
+  {
+    id: "feedback-5",
+    content: "The prices for dry cleaning are just great, they are way less costly than the local dry cleaners and efficient in terms of pick up end delivery.",
+    name: "Shubham Gupta",
+    title: "Customer",
+    img: people03,
+  },
+  {
+    id: "feedback-6",
+    content: "I recommended nivi to friends that live with me in the PG, The laundry services are upto the mark and I must say it is total value for money. My clothes always come back looking and smelling great.",
+    name: "Sakshi Gupta",
+    title: "Customer",
+    img: people03,
+  },
 ];
 
 export const stats = [
