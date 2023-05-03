@@ -33,7 +33,6 @@ const Footer = () => (
   <div className={`${styles.heading2} text-right md:w-1/2 md:pl-8 mt-10 md:mt-0`}>
     <h1>Contact</h1>
     <p className={`${styles.paragraph}`}>Sahil Yadav: +91 99113 96425</p>
-    <p className={`${styles.paragraph}`}>Jayant : +91 70601 21256</p>
     <a href="mailto:info@nivilaundry.com">
       <button
         type="button"
